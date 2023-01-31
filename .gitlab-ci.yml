@@ -1,5 +1,5 @@
 quarkus:deployProduction:
-  image: oracle/graalvm-ce
+  image: poad/graalvm-ce
   stage: deploy
   environment: live
   script:
